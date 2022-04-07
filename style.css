@@ -1,0 +1,161 @@
+body {
+  background-color: #271c1c;
+}
+
+h1 {
+  color: #DC143C;
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 5px 5px 10px #0000FF;
+}
+
+h2 {
+  text-align: center;
+  color: #DAA520;
+  text-shadow: 5px 5px 10px #B22222;
+}
+
+p {
+  text-align: center;
+  color: #DAA520;
+  text-shadow: 5px 5px 10px B22222;
+  font-size: 25px
+}
+
+#choose-now {
+  background-color: #271c1c;
+  border: none;
+  text-decoration: none;
+  outling: none;
+  padding: 15px 25px;
+  display: inline;
+  font-size: 24px;
+  border: 5px solid #555555;
+  border-radius: 40%;
+  cursor: none;
+  box-shadow: 0 9px #999;
+  animation-timing-function: linear;
+  position: relative;
+  animation: mymove 5s infinite;
+  float: left;
+}
+
+div{
+  text-align: center;
+  margin: 90px; 
+}
+
+ #Kick {
+  display: inline-block;
+  background-color: #DC143C;
+  border: none;
+  color: #FFFFF0;
+  text-inline: center;
+  text-decoration: none;
+  outline: none;
+  margin: 0px 75px 0px 0px;
+  padding: 15px 25px;
+  font-size: 24px;
+  border: 5px solid #555555;
+  border-radius: 40%;
+  animation-name: test;
+  animation-duration: 4s;
+  animation-iteration-count: 5;
+  cursor: pointer;
+  box-shadow: 0 9px #999;
+  
+}
+#Kick:hover {
+  background-color: #696969;
+}
+#Kick:active {
+  background-color: #2F4F4F;
+  box-shadow: 0 10px #666;
+  transform: translateY(4px);
+}
+
+
+
+
+#Punch {
+  background-color: #DC143C;
+  border: none;
+  color: #FFFFF0;
+  text-inline: center;
+  text-decoration: none;
+  outline: none;
+  padding: 15px 25px;
+  margin: 0px 75px 0px 0px;
+  font-size: 24px;
+  border: 5px solid #555555;
+  border-radius: 40%;
+  animation-name: test;
+  animation-duration: 4s;
+  animation-iteration-count: 5;
+  cursor: pointer;
+  box-shadow: 0 9px #999;
+
+}
+#Punch:hover {
+  background-color: #696969;
+}
+#Punch:active {
+  background-color: #2F4F4F;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#Skin {
+  background-color: #DC143C;
+  border: none;
+  color: #FFFFF0;
+  text-inline: center;
+  text-decoration: none;
+  outline: none;
+  padding: 15px 25px;
+  font-size: 24px;
+  border: 5px solid #555555;
+  border-radius: 40%;
+  animation-name: test;
+  animation-duration: 4s;
+  animation-iteration-count: 5;
+  cursor: pointer;
+  box-shadow: 0 9px #999;
+  
+}
+#Skin:hover {
+  background-color: #696969;
+}
+#Skin:active {
+  background-color: #2F4F4F;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+@keyframes test {
+  0%   {background-color:red;}
+  25%  {background-color:black;}
+  50%  {background-color:red;}
+  75%  {background-color:black;}
+  100% {background-color:red;}
+}
+
+@keyframes mymove {
+  from {left: 0px}
+  to {left: 400px;}
+  from {color: #882e2e;}
+  to {color: #ae6a6a;}
+}
+#results {
+  padding: 60px 50px;
+  font-size: 35px;
+  text-shadow: 5px 5px 10px #B22222;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  #image-grid img {
+    width: 100%;
+  }
